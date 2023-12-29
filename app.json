@@ -1,6 +1,6 @@
 {
   "name": "File Sharing Man",
-  "description": "BOT Multi Force Subs File Sharing Bot berguna untuk menyimpan file dan dapat diakses melalui link khusus",
+  "description": "BOT Multi Force Subs File Sharing Bot is useful for storing files and can be accessed through a special link",
   "stack": "heroku-22",
   "keywords": [
     "telegram",
@@ -10,53 +10,53 @@
   "logo": "https://telegra.ph/file/9dc4e335feaaf6a214818.jpg",
   "env": {
     "TG_BOT_TOKEN": {
-      "description": "Masukan Bot token, Dapatkan dari t.me/BotFather",
+      "description": "Input Bot token, obtain it from t.me/BotFather",
       "value": ""
     },
     "OWNER": {
-      "description": "Masukan Username Telegram untuk Owner BOT [ Jangan Pake @ ]",
+      "description": "Input Telegram Username for BOT Owner [Do not use @]",
       "value": ""
     },
     "ADMINS": {
-      "description": "Masukan User ID untuk mendapatkan hak Admin di BOT [ Gunakan Spasi Untuk Pemisah User ID ]",
+      "description": "Input User ID to grant Admin rights to the BOT [Use space as a separator for User IDs]",
       "value": "0"
     },
     "APP_ID": {
-      "description": "Dapatkan APP ID di web my.telegram.org",
+      "description": "Get APP ID on my.telegram.org",
       "value": "6"
     },
     "API_HASH": {
-      "description": "Dapatkan API HASH di web my.telegram.org",
+      "description": "Get API HASH on my.telegram.org",
       "value": "eb06d4abfb49dc3eeb1aeb98ae0f581e"
     },
     "CHANNEL_ID": {
-      "description": "Masukan ID Channel Untuk [Channel Database]",
+      "description": "Input Channel ID for [Channel Database]",
       "value": "-100"
     },
     "PROTECT_CONTENT": {
-      "description": "Untuk Mencegah pengguna bot untuk mendownload/memforward/mengscreenshot konten yang dikirim di bot [ Bila ingin diaktifkan ubah ke True ]",
+      "description": "To prevent bot users from downloading/forwarding/screenshotting sent content [If you want to enable, change to True]",
       "value": "False"
     },
     "FORCE_SUB_CHANNEL": {
-      "description": "Masukan ID dari Channel Atau Group Untuk Wajib Subscribenya, Bila tidak ingin dipakai Fsubnya, isi dengan 0",
+      "description": "Input ID of the Channel or Group for Forced Subscription, If you don't want to use Fsub, fill in with 0",
       "value": "0"
     },
     "FORCE_SUB_GROUP": {
-      "description": "Masukan ID dari Group Untuk Wajib Subscribenya, Bila tidak ingin dipakai Fsubnya, isi dengan 0",
+      "description": "Input ID of the Group for Forced Subscription, If you don't want to use Fsub, fill in with 0",
       "value": "0"
     },
     "START_MESSAGE": {
-      "description": "Pesan /start memulai awalan ke bot, Gunakan format parsemode HTML",
-      "value": "<b>Hello {first}\n\nSaya dapat menyimpan file pribadi di Channel Tertentu dan pengguna lain dapat mengaksesnya dari link khusus.</b>"
+      "description": "/start message to initiate conversation with the bot, Use HTML parse mode format",
+      "value": "<b>Hello {first}\n\nI can store private files in a specific channel, and other users can access them through a special link.</b>"
     },
     "FORCE_SUB_MESSAGE": {
-      "description": "Pesan Paksa Subscribe bot, Gunakan Format parsemode HTML",
-      "value": "<b>Hello {first}\n\nAnda harus bergabung di Channel/Grup saya untuk menggunakan saya\n\nSilakan Join Ke Channel Terlebih Dahulu</b>"
+      "description": "Force Subscribe bot message, Use HTML parse mode format",
+      "value": "<b>Hello {first}\n\nYou must join my Channel/Group to use me\n\nPlease Join the Channel first</b>"
     }
   },
   "addons": [
     {
-    "plan": "heroku-postgresql",
+      "plan": "heroku-postgresql",
       "options": {
         "version": "12"
       }
