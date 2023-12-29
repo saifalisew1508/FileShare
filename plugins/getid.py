@@ -14,5 +14,5 @@ async def showid(client, message):
     if chat_type == enums.ChatType.PRIVATE:
         user_id = message.chat.id
         await message.reply_text(
-            f"<b>User ID anda adalah:</b> <code>{user_id}</code>", quote=True
+            f"<b>Your user ID is:</b> <code>{user_id}</code>", quote=True
         )
